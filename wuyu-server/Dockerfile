@@ -8,5 +8,5 @@ RUN mvn clean package -DskipTests
 # 使用 OpenJDK 8 作为运行时环境
 FROM openjdk:8-jdk
 COPY --from=build /app/target/*.jar /app/app.jar
-EXPOSE 8080
+EXPOSE 9080
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
