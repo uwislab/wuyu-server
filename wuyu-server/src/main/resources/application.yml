@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://us.uwis.cn:3306/default?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://us.uwis.cn:3306/fiveup?useSSL=false&serverTimezone=UTC
     username: mysql
     password: eA77S1yLKIh7o0HDT9X7DEfcfkCn0PqwHDuZCXbh3FKsWS82TuBIT9wrmBMOge1c
     driver-class-name: com.mysql.cj.jdbc.Driver
